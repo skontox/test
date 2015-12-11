@@ -1,0 +1,148 @@
+<!-- HOME -->
+
+<div class="embed-responsive embed-responsive-16by9">
+  <div class="carousel-caption">
+    <p class="lead"><%= t 'home.h1' %></p>
+  </div>
+  <div class="visible-lg" id="jumping-arrow"><a href="#start"><i class="icon-down-open" style="font-size: large; color: #ffffff"></i></a></div>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag('resepsjonbygg.jpg', :class => 'img-responsive') %>
+      </div>
+      <div class="item">
+        <%= image_tag('norheimsund_am_hardangerfjord.png', :class => 'img-responsive') %>
+      </div>
+      <div class="item">
+        <%= image_tag('fjord-green.jpg', :class => 'img-responsive') %>
+      </div>
+      <div class="item">
+        <%= image_tag('snowy_nesvika.jpg', :class => 'img-responsive') %>
+      </div>
+      <div class="item">
+        <%= image_tag('HardangerLofthus.jpg', :class => 'img-responsive') %>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- Home content -->
+<div class="container">
+  <code>Insert headline here</code>
+  <p id="start"><%= t 'home.par1' %></p>
+  <p><%= t 'home.par2' %></p>
+  <p><%= t 'home.par3' %></p>
+  <p><%= t 'home.par4' %></p>
+  <p><%= t 'general.have_questions_call' %></p>
+
+  <!-- DAS RESORT -->
+  <%= block_header 'resort', 'menu.the_resort' %>
+
+  <code>PICTURES!</code>
+  <p><%= t 'resort.par1' %></p>
+
+  <p><a class="btn btn-default" role="button" data-toggle="collapse" data-parent="#accordion" href="#mapCollapse" aria-expanded="true" aria-controls="mapCollapse">
+    <i class="icon-map" style="font-size: medium"></i> <%= t 'resort.map_h3' %> <span class="caret"></span>
+  </a></p>
+  <div id="mapCollapse" class="collapse">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d266402.4880443432!2d6.130060648691279!3d60.353461041671665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463c33f2afb6dc97%3A0x9d294627db076bf0!2sHardanger+Feriesenter+AS!5e0!3m2!1sen!2sno!4v1442346481558" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <p><%= t 'resort.par2'%></p>
+  <p><%= t 'resort.par3'%></p>
+  <p><%= t 'general.have_questions_call'%></p>
+
+  <!-- BUCHUNG -->
+  <%= block_header 'booking', 'booking.h1' %>
+  <h3><%= t 'booking.h3' %></h3>
+  <p><%= t 'booking.intro' %></p>
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <!-- Book house -->
+    <div class="panel panel-default">
+      <%= accordion_header 'collapseOne', 'booking.houses', 'icon-home-1' %>
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          <br><br>
+          <%= render 'layouts/booking_box' %>
+        </div>
+      </div>
+    </div>
+    <!-- Book camping -->
+    <div class="panel panel-default">
+      <%= accordion_header 'collapseTwo', 'booking.camping', 'icon-flag' %>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <!-- Book boat -->
+    <div class="panel panel-default">
+      <%= accordion_header 'collapseThree', 'booking.boats', 'icon-anchor-1' %>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+    <!-- Book bicycle -->
+    <div class="panel panel-default">
+      <%= accordion_header 'collapseFour', 'booking.bicycles', 'icon-bicycle' %>
+      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p><br><%= t 'general.have_questions_call' %></p>
+
+  <!-- AKTIVITÄTEN -->
+  <%= block_header 'activities', 'menu.activities' %>
+  <p><%= t 'activities.intro' %></p>
+  <p><%= t 'general.have_questions_call' %></p>
+
+  <!-- WÄHRUNGSRECHNER -->
+  <%= block_header 'currency-calc', 'menu.currency_calc' %>
+  <iframe src="https://www.google.com/finance/converter?a=1&from=EUR&to=NOK" frameborder="0" witdh="100%" height="auto"></iframe>
+  <!--<div class="input-group">
+    <span class="input-group-addon">€</span>
+    <input id="input-eur" type="text" class="form-control" aria-label="Amount (in EUR)" value="2.00">
+    <span class="input-group-addon">= NOK</span>
+      <input id="output-nok" type="text" class="form-control" aria-label="NOK">
+      <span class="input-group-btn">
+          <button id="btn-convert" class="btn btn-default" type="button">Go!</button>
+      </span>
+  </div>-->
+  <br>
+
+  <p><%= t 'general.have_questions_call' %></p>
+
+  <!-- KONTAKT -->
+  <%= block_header 'contact', 'menu.contact' %>
+  <address>
+    <strong>Hardanger Feriesenter AS</strong><br>
+    Hardangerfjordvegen 341<br>
+    5600 Norheimsund<br>
+    Norwegen<br>
+  </address>
+  <p><%= t 'general.have_questions_call' %></p>
+
+</div>

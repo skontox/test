@@ -1,0 +1,9 @@
+Problem: Images / stylesheets not visible on deployed app
+Solution: Compile assets (stylesheets, images, scripts ++) for production
+    $ RAILS_ENV=production bundle exec rake assets:precompile
+  Then git add, git commit and push to Heroku
+
+Problem: New Pages not visible on deployed app
+Solution: Migrate DB to Heroku
+    $ heroku run rake db:migrate
+

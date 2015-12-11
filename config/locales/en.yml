@@ -19,5 +19,47 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+# Check syntax at http://www.yamllint.com
+
 en:
-  hello: "Hello world"
+  hello_world: "Hello Rails"
+
+  menu:
+  # MENU ITEMS
+    home: "Home"
+    the_resort: "The Resort"
+    booking: "Booking"
+    activities: "Activities"
+    currency_calc: "Currency converter"
+    contact: "Contact"
+    forum: "Forum"
+    impressum: "Legal"
+
+  # General phrases
+  general:
+    have_questions_call: "Bei Rückfragen erreichen Sie uns unter Tel. +49 173 6277111"
+
+  # Home page
+  home:
+    h1: "Herzlich willkommen auf Ihrer Informations- und Buchungsseite für einen unvergesslichen Urlaub in Norwegen am Hardanger Fjord."
+    par1: "Die unberührte Natur an diesem wunderschönen Fjord bietet Ihnen eine imposante und beeindruckende, faszinierdende Welt. Das kristallklare Wasser und die atemberaubende Berglandschaft scheinen hier im Einklang miteinander zu verschmelzen. Der Fjord, die Seen und Bäche führen hier noch reinstes Wasser und beherbergen eine äußerst große Artenvielfalt von unterschiedlichsten Tieren. Hier ist die Natur noch unberührt und nicht von Umwelteinflüssen gefährdet."
+    par2: "Planen Sie Ihren Urlaub in einer Region, in der Ihnen jede einzelne Jahreszeit ein breites Spektrum an Aktivitäten bietet, ob die Fruchtblüte im Frühjahr direkt am Fjord, verbunden mit einem Skiurlaub in den Bergen, ob Baden oder Wassersport im Sommer."
+    par3: "Entdecken Sie in den Aufstellungen unser Seiten die Möglichkeiten, die Ihnen nicht nur unser Resort, sondern die ganze Region bietet. Unser deutschsprachiges Team unterstützen Sie gerne bei Ihrer Auswahl der für Ihre Bedürfnisse zugeschnittenen Wander- oder Fahrradrouten, buchen für Sie eine unvergessliche Kanutour direkt an einem Gletscher oder eine Rafting Tour auf einem reißenden Fluss."
+    par4: "Lassen Sie sich verwöhnen in dem im Aufbau befindlichen Erholungs- und Fitnessbereich oder genießen Sie einfach die Stille, die Sie den hektischen Alltag vergessen lässt. Gerne unterstützen wir Sie bei Ihrer Anreiseplanung, bei Bedarf buchen wir für Sie Ihre Fährverbindungen, Ihre Plätze im Flugzeug oder Ihren Mietwagen. Für eventuelle Fragen jeglicher Art stehen wir Ihnen selbstverständlich zur Verfügung. Herzlich willkommen sagt Ihr Team vom Hardanger-Feriencenter, wir freuen uns auf Sie."
+
+  # Das Resort - the resort
+  resort:
+    par1: "Hardanger Feriesenter liegt zwischen Norheimsund und Øystese in Kvam, ca. 1,5 Stunden Fahrzeit von Bergen und dem Flughafen Flesland."
+    map_h3: "Karte vom Hardanger Feriesenter"
+    toggle_map_on: "Anzeigen"
+    toggle_map_off: "Ausblenden"
+    par2: "Es erwartet Sie ein seit 1975 privat geführtes Feriencenter, dass liebevoll von Henni und Geirmund geleitet wird. Stetige Modernisierungen und Erweiterungen in allen Bereichen präsentieren das heutige Hardanger-Resort, so dass sich jetzt drei Fjordhäuser, sieben Berghäuser, diverse Wohnmobil-/Wohnwagen- und Stellplätze für große und kleine Zelte (direkt am Fjord) sowie die Bootsvermietung mit z.Zt. fünf Motorbooten im Angebot befinden. Das Team vom Hardanger Feriesenter wird seit Anfang 2015 tatkräftig durch Petra und Thorsten unterstützt, die mit ihrem jüngsten Sohn René von Bremen nach Norheimsund umgesiedelt sind."
+    par3: "Hervorheben möchten wir die historischen Bauten auf dem Gehöft \"Nes gard\" direkt auf dem Gelände, das Sie bei Bedarf gerne besichtigen können mit einem abschließenden Räubermahl."
+
+  booking:
+    h1: "Unser Buchungsangebot"
+    h3: "Unsere buchbaren Objekte"
+    intro: "Hier finden Sie alles was wir Ihnen zum Buchen bzw. Mieten anbieten können:"
+
+  activities:
+    intro: "Hier gelangen Sie zu unseren angebotenen Aktivitäten:"

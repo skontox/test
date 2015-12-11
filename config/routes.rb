@@ -1,12 +1,23 @@
 Rails.application.routes.draw do
-  resources :widgets
+
+  get 'calendar/show'
+
+  # set locale in all URLs like 'hardanger-resort.de/de/page.html'
+  scope "/:locale" do
+    resources :pages
+    get '/houses' => 'pages#houses', as: :houses
+    get '/activities' => 'pages#activities', as: :activities
+    get '/legal' => 'pages#legal', as: :legal
+    get '/contact' => 'pages#contact', as: :contact
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
 
-  root 'welcome#index'
+  get '/:locale' => 'pages#index'
+  root 'pages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

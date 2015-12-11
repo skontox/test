@@ -1,0 +1,604 @@
+﻿# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+# Check syntax at http://www.yamllint.com
+
+de:
+  hello_world: "Hello Rails"
+
+  menu:
+  # MENU ITEMS
+    home: "Home"
+    the_resort: "Das Resort"
+    booking: "Buchung"
+    activities: "Aktivitäten"
+    currency_calc: "Währungsrechner"
+    contact: "Kontakt"
+    forum: "Forum"
+    impressum: "Impressum"
+
+  # General phrases
+  general:
+    have_questions_call: "Bei Rückfragen erreichen Sie uns unter Tel. +49 173 6277111"
+    booking_boats_life_jacket_1: "Rettungswesten sind für Jeden an Bord vorhanden."
+    booking_boats_life_jacket_2: "* Benzin wird zusätzlich berechnet: NOK 30,- pro Liter"
+    booking_boats_life_jacket_3: "** Spezielle Bedingungen: Mindestens 4 Tage zu mieten"
+    booking_boats_life_jacket_4: "Wasserski, Wasserboard und Funboard wird auf Anfrage angeboten"
+    external_link: "(externer Link)"
+
+
+  # Home page
+  home:
+    h1: "Herzlich willkommen auf Ihrer Informations- und Buchungsseite für einen unvergesslichen Urlaub in Norwegen am Hardanger Fjord."
+    par1: "Die unberührte Natur an diesem wunderschönen Fjord bietet Ihnen eine imposante und beeindruckende, faszinierdende Welt. Das kristallklare Wasser und die atemberaubende Berglandschaft scheinen hier im Einklang miteinander zu verschmelzen. Der Fjord, die Seen und Bäche führen hier noch reinstes Wasser und beherbergen eine äußerst große Artenvielfalt von unterschiedlichsten Tieren. Hier ist die Natur noch unberührt und nicht von Umwelteinflüssen gefährdet."
+    par2: "Planen Sie Ihren Urlaub in einer Region, in der Ihnen jede einzelne Jahreszeit ein breites Spektrum an Aktivitäten bietet, ob die Fruchtblüte im Frühjahr direkt am Fjord, verbunden mit einem Skiurlaub in den Bergen, ob Baden oder Wassersport im Sommer."
+    par3: "Entdecken Sie in den Aufstellungen unser Seiten die Möglichkeiten, die Ihnen nicht nur unser Resort, sondern die ganze Region bietet. Unser deutschsprachiges Team unterstützen Sie gerne bei Ihrer Auswahl der für Ihre Bedürfnisse zugeschnittenen Wander- oder Fahrradrouten, buchen für Sie eine unvergessliche Kanutour direkt an einem Gletscher oder eine Rafting Tour auf einem reißenden Fluss."
+    par4: "Lassen Sie sich verwöhnen in dem im Aufbau befindlichen Erholungs- und Fitnessbereich oder genießen Sie einfach die Stille, die Sie den hektischen Alltag vergessen lässt. Gerne unterstützen wir Sie bei Ihrer Anreiseplanung, bei Bedarf buchen wir für Sie Ihre Fährverbindungen, Ihre Plätze im Flugzeug oder Ihren Mietwagen. Für eventuelle Fragen jeglicher Art stehen wir Ihnen selbstverständlich zur Verfügung. Herzlich willkommen sagt Ihr Team vom Hardanger-Feriencenter, wir freuen uns auf Sie."
+
+  # the resort
+  resort:
+    par1: "Hardanger Feriesenter liegt zwischen Norheimsund und Øystese in Kvam, ca. 1,5 Stunden Fahrzeit von Bergen und dem Flughafen Flesland."
+    map_h3: "Karte vom Hardanger Feriesenter "
+    toggle_map_on: "Anzeigen"
+    toggle_map_off: "Ausblenden"
+    par2: "Es erwartet Sie ein seit 1975 privat geführtes Feriencenter, dass liebevoll von Henni und Geirmund geleitet wird. Stetige Modernisierungen und Erweiterungen in allen Bereichen präsentieren das heutige Hardanger-Resort, so dass sich jetzt drei Fjordhäuser, sieben Berghäuser, diverse Wohnmobil-/Wohnwagen- und Stellplätze für große und kleine Zelte (direkt am Fjord) sowie die Bootsvermietung mit z.Zt. fünf Motorbooten im Angebot befinden. Das Team vom Hardanger Feriesenter wird seit Anfang 2015 tatkräftig durch Petra und Thorsten unterstützt, die mit ihrem jüngsten Sohn René von Bremen nach Norheimsund umgesiedelt sind."
+    par3: "Hervorheben möchten wir die historischen Bauten auf dem Gehöft \"Nes gard\" direkt auf dem Gelände, das Sie bei Bedarf gerne besichtigen können mit einem abschließenden Räubermahl."
+
+  # Our Booking Offers
+  booking:
+    h1: "Unser Buchungsangebot"
+    h3: "Unsere buchbaren Objekte"
+    intro: "Hier finden Sie alles was wir Ihnen zum Buchen bzw. Mieten anbieten können:"
+    boats: "Boote"
+    camping: "Camping"
+    bicycles: "Fahrräder"
+
+    # Our Booking Offers - Our cottages
+    houses: "Ferienhäuser"
+    calendar_button_text: "Gesamtübersicht der Verfügbarkeit"
+    calendar_button_link: "http://reservation.worldweb.com/Bookings-nr105/transaction-calendar.html?&hotel_id=1260&language=german&newrelease_redirect=1"
+    general_booking_button_text: "Allgemeine Buchungsseite"
+    general_booking_button_link: "http://reservation.worldweb.com/hotel/1260?language=german"
+    search_by_date_h4: "Spezielle Terminanfrage"
+    form_check_in: "Ankunft"
+    form_check_out: "Abfahrt"
+    form_date_format: "TT.MM.JJJJ"
+    form_adults: "Erwachsene"
+    form_children: "Kinder unter 16"
+    form_button: "Verfügbarkeit prüfen"
+
+  houses:
+    # general content
+    luxury: "Ein luxuriöser Traum am Fjord"
+    nature: "Naturnahe idyllische Hütte"
+    prices: "Preise"
+    prices_info: " Unsere Preise variieren nach Saison und Anzahl der Gäste pro Haus."
+
+    technical_info: "Ausstattung und technische Information"
+    capacity: "Kapazität"
+    area: "Größe"
+    built_year: "Baujahr"
+    rooms: "Zimmer"
+    parking: "Parkplatz"
+    wheelchair_access: "Rollstuhl Zugang"
+    facilities: "Annehmlichkeiten"
+
+    nesvika:
+      name: "Nesvika Energiehaus"
+      intro: "Die Nesvika Energiehäuser kombinieren die Nutzung von aktiver und passiver Solarenergie. Sie wurden mit Unterstützung des Forschungsrates der norwegischen Regierung gebaut. Die Häuser stehen direkt am Ufer des Fjords mit Blick auf den Kai. Jedes hat eine eigene Terrasse mit einem geschützten Sitzbereich, einem Wasserspiel, einem Grill und einem Räucherofen für Fisch."
+      interior_header: "Inneneinrichtung mit globalem Einfluss"
+      interior_p1: "Die Hütten am Fjord sind von kulturellen Eindrücken und Reiseerfahrungen aus der ganzen Welt beeinflusst. Wir haben drei Themen aus verschiedenen Kontinenten ausgewählt. Wir hoffen auf diese Weise, Respekt und Anerkennung für die Vielfalt der Welt zu zeigen, in der wir leben."
+      interior_pref: "Wenn Sie eine bestimmte Präferenz haben, teilen Sie uns dies bitte mit, wenn Sie eine Reservierung vornehmen!"
+      bedlinen_tip: "Hinweis: "
+      bedlinen_tip_desc: "Wenn Sie Bettzeug bei uns bestellen, bekommen Sie auch ein Küchentuch. Sonst müssen Sie dieses selber mitbringen."
+      capacity_desc: "6 Personen"
+      rooms_desc: "3 Schlafzimmer, Flur, Badezimmer, Küche, Wohnzimmer, Wintergarten"
+      wheelchair_access_desc: ""
+      parking_desc: "Eigener Parkplatz am Eingang"
+      facilities_desc: "WiFi"
+
+    neshagen:
+      name: "Neshagen Hyttegrend"
+      intro: "Auf einem Berg oberhalb unserer Anlage stehen 8 Ferienhütten am Rand des Waldes. Die Straße führt zu einem zentralen Parkplatz und Wanderwege führen zu den individuellen Hütten, die schön gelegen sind im geschützten Eichenwald. Die Ferienhütten in Neshagen sind ab 1970 erbaut und sind beeinflusst von dieser Phase der Naturromantik. Alle Hütten haben den gleichen technischen Standard, sind aber unterschiedlich hinsichtlich der Gestaltung, des Zugangs und des Ausblickes."
+      interior_header: "Individuelle Einrichtung"
+      interior_p1: "Das Design der Hütten nennt sich“Trybo”, und wurde im Jahr des Baus ausgewählt als skandinavisches “Ferienhaus des Jahres”. Die Inneneinrichtung und die maßgeschneiderten Möbel sind aus Kiefernholz. Jedes Haus ist den Hobbies oder Aktivitäten entsprechend individuell möbliert."
+      capacity_desc: "5 Personen (+1 Extra Schlafplatz auf dem Sofa)"
+      area_desc: "40 m2 (52-62 m2 inkl. Terrasse)"
+      rooms_desc: "2 Schlafzimmer, Flur, Bad, Küche/ Wohnraum mit Kamin"
+      wheelchair_access_desc: ""
+      parking_desc: "Gemeinschaftsparkplatz und Fußweg zu jedem Haus"
+      facilities_desc: "WiFi"
+
+    # the individual content
+    booking_cottages:
+      h1: "Ferienhäuser buchen"
+      
+      nesvika1:
+        h1: "Nesvika Energiehaus 1"
+        h3: "Das Amerikanische Haus"
+        individual: "Das Dekor des amerikanischen Hauses orientiert sich am amerikanischen Retro Stil. Die Stimmung des Hauses ist geprägt von angenehmen Farbtönen, Lava Lampen, Neon – Lichtern und einer Disko-Kugel. Die Fotowand im Wintergarten ist eine Luftaufnahme von New York aus dem Hubschrauber und das ganze Haus ist in lebendigen und beschwingenden Farben gehalten."
+
+      nesvika2:
+        h1: "Nesvika Energiehaus 2"
+        h3: "Das Klassische Haus"
+        individual: "In Nesvika 2 reicht die klassische Tradition vom alten Ägypten zum europäischen Neoklassizismus, und erstreckt sich über die Antike, das Römische Reich bis zur Renaissance. Einige der Hauptelemente sind von der Akropolis, Venedig und Potsdam inspiriert."
+      
+      nesvika3:
+        h1: "Nesvika Energiehaus 3"
+        h3: "Das Japanische Haus"
+        individual: "Das japanische Haus in Nesvika übermittelt eine meditative Atmosphäre. Es wurde besonderer Wert auf reine Natur Materialien gelegt und bringt den einfachen und disziplinierten Lebensstil im ländlichen Japan zur Geltung. Elemente aus der Kampfkunst, Geishas und Kirschblüten repräsentieren die japanische Kultur."
+        wheelchair_info: "Dieses Haus ist für Rollstuhlfahrer zugänglich."
+
+      neshagen2:
+        h1: "Neshagen Hyttegrend 2"
+        h3: "Maler Hütte"
+        individual: "Die Maler Hütte ist rollstuhlgerecht. Sie hat eine überdachte Terrasse und befindet sich gut zugänglich am Parkplatz."
+
+      neshagen3:
+        h1: "Neshagen Hyttegrend 3"
+        h3: "Literaten Hütte"
+        individual: "Die Literaten Hütte ist am dichtesten am Parkplatz gelegen."
+
+      neshagen4:
+        h1: "Neshagen Hyttegrend 4"
+        h3: "Angler Hütte"
+        individual: "Die Angler Hütte bietet einen Blick über den Fjord und ist mit einer überdachten Terrasse ausgestattet."
+
+      neshagen5:
+        h1: "Neshagen Hyttegrend 5"
+        h3: "Segler Hütte"
+        individual: "Die Segler Hütte ist eine bezaubernde Unterkunft mit einer großzügigen, überdachten Terrasse."
+
+      neshagen6:
+        h1: "Neshagen Hyttegrend 6"
+        h3: "Musiker Hütte"
+        individual: "Die Musiker Hütte liegt am Waldesrand und bietet einen bezaubernden Blick über den Fjord."
+
+      neshagen7:
+        h1: "Neshagen Hyttegrend 7"
+        h3: "Jäger Hütte"
+        individual: "Die Jäger Hütte befindet sich an einem geschützten Platz in lauschiger Atmosphäre."
+
+      neshagen8:
+        h1: "Neshagen Hyttegrend 8"
+        h3: "Gärtner Hütte"
+        individual: "Die Gärtner Hütte bietet einen bezaubernden Blick über den Fjord."
+
+
+
+    # Our Booking Offers - Our camping
+    camping: "Campingplatz"
+
+    # the content 
+    campground:
+      h1: "Unser Campingplatz"
+      par1: "Unser bekanntes und familienfreundliches 4-Sterne Camping liegt direkt am Fjord und bietet einen wunderschönen Panorama Blick auf den Hardangerfjord und auf den Folgefonna Gletscher."
+      par2: "Der Campingplatz verfügt über 60 Gast-Stellplätze auf einem ebenen Gelände für Zelte, Wohnwagen und Wohnmobile, davon haben 26 Elektrizität Weitere wichtige Faktoren sind die familienfreundliche Anlage mit Spielplatz und Badestelle."
+      par3: "Das Sanitärgebäude verfügt über:"
+      par4: "- Toiletten und Duschen"
+      par5: "- eine separate rollstullgerechte Dusche/Toilette"
+      par6: "- eine kleine Küche"
+      par7: "- einen Waschraum mit Waschmaschine und ein Trockner gegen Gebühr"
+      par8: "- sowie einen Raum für die Entleerung Ihrer Chemietoilette."
+      par9: "- Gleich neben dem Sanitärgebäude finden Sie den Kanal für das Abwasser und einen Waschplatz für PKW's."
+
+      playground:
+        h1: "Spielplatz"
+        h3: "Unser Spielplatz"
+        par1: "Unser Spielplatz befindet sich gleich bei der Rezeption und eignet sich für kleinere und größere Kinder. Es gibt ein Spielhaus, ein Trampolin mit Sicherheitsnetz, einen Sandkasten, Schaukeln und ein großes Schachbrett. Das Freiluft Café ist dicht an der Rezeption und bietet einen Überblick über das ganze Spielareal, so dass Sie bequem Ihre spielenden Kinder im Blick haben können."
+     
+      swimming_place:
+        h1: "Badestelle"
+        par1: "Während des Sommers ist die Wassertemperatur im Fjord perfekt zum Baden. Im flachen Wasser ist der Boden schön und sandig, ein bisschen weiter draußen können Sie auf ein schwimmendes Floß klettern. Gleich über dem Kieselstrand ist ein ansprechender Sitzplatz, von dem aus Sie sicher und bequem Ihre schwimmenden Kinder im Blick haben. Sie können auch ein Boot mieten, mit Wasserskiern, Wasserboard und Schwimmreifen."
+
+      pier:
+        h1: "Anleger für Gäste"
+        par1: "Wir haben einen Anleger für diejenigen, die mit dem Boot anreisen. Unser Anleger hat Platz für 6 Boote bis zu 14 Fuß Länge. Wenn Sie Stromanschluss benötigen, können Sie ein Verlängerungskabel bei uns bekommen."
+ 
+      prices:
+        h1: "Preise"
+        h3: "Unsere Preise"
+        table_headline_1: ""
+        table_headline_2: "Pro Nacht"
+        table_car_caravan_txt: "Auto und Wohnwagen"
+        table_car_caravan_price: "NOK 200,-"
+        table_campmobile_txt: "Wohnmobil"
+        table_campmobile_price: "NOK 190,-"
+        table_car_tent_txt: "Auto und Zelt"
+        table_car_tent_price: "NOK 160,-"
+        table_motorcycle_tent_txt: "Motorrad und Zelt"
+        table_motorcycle_tent_price: "NOK 150,-"
+        table_bicycle_tent_txt: "Fahrrad und Zelt"
+        table_bicycle_tent_price: "NOK 140,-"
+        table_extra_tent_txt: "Extra Zelt"
+        table_extra_tent_price: "NOK 100,-"
+        table_power_for_camper_txt: "Strom für Camper / Boot"
+        table_power_for_camper_price: "NOK 50,-"
+        table_power_for_tent_txt: "Strom für Zelt"
+        table_power_for_tent_price: "NOK 40,-"
+        table_price_adult_txt: "Pro Erwachsenen"
+        table_price_adult_price: "NOK 25,-"
+        table_price_child_txt: "Pro Kind 4-16 Jahren"
+        table_price_child_price: "NOK 15,-"
+        par1: "Kinder unter 4 Jahren sind frei."
+      
+      opening_hours:
+        h1: "Öffnungszeiten der Rezeption"
+        h3: "Werktags und Samstag:"
+        par1: "09.00 – 12.00"
+        par2: "16.00 – 21.00"
+        h3_sunday: "Sonntag:"
+        par3: "10.00 – 12.00"
+        par4: "16.00 – 20.00"
+
+      booking_on_camping:
+        h1: "Buchung auf dem Campingplatz"
+        par1: "Eine Buchung für unsere Campingplätze ist nur gegen Vorkasse möglich. Daher machen wir Sie hiermit darauf aufmerksam, dass wir im Falle einer Stornierung bzw. Nichtanreise die vereinbarten Campingplatzgebühren für die Vertragsdauer in Rechnung stellen. Selbstverständlich bemühen wir uns die nicht in Anspruch genommenen Stellplätze nach Möglichkeit weiterzuvermieten, so dass für Sie die eventuellen Stornokosten entfallen würden. Bis zur anderweitigen Vermietung des Stellplatzes sind Sie verpflichtet den vereinbarten Betrag abzüglich der Einsparungen zu bezahlen"
+
+      food:
+        h1: "Speisen"
+        par1: "Während der Saison zwischen dem 20. Mai bis zum 20. August bieten wir im Café Kaffee, Tee und Kuchen an und Sie können Brötchen und Brot für den kommenden Tag vorbestellen. Wenn Sie uns rechtzeitig Bescheid geben, können Sie ein leichtes Abendessen bestellen. In Norheimsund und Øystese finden Sie Lebensmittelgeschäfte und Restaurants."
+
+
+
+    # Our Booking Offers - Our Boats
+    boats: "Boote"
+
+    # the content
+    booking_boats:
+      h1: "Boote mieten"
+      par1: "Wir wünschen Ihnen eine sichere und angenehme Erfahrung auf dem Fjord. Wenn Sie ein Boot bei uns mieten, sind Rettungswesten immer inbegriffen, und es ist erforderlich, sie an Bord anzubehalten. Alle motorisierten Boote sind mit Sicherheitssystem ausgestattet, die das Boot stoppen, wenn der Fahrer über Bord fällt. Wenn nötig erhalten Sie eine Einführung in die Benutzung des Motors, des Bootes, des Equipments und des Festmachens. Wenn Sie sich weit entfernen wollen vom Urlaubsdomizil, empfehlen wir Ihnen, Ihr Mobiltelelefon mitzuführen. So können Sie uns anrufen, sofern Sie in unvorhergesehene Umstände geraten. Wenn Sie das Boot länger als ein Tag mieten, sollten wir eine schriftliche Mietvereinbarung treffen."
+      par2: "Unsere Richtlinien sind in Übereinstimmung mit dem norwegischen Gesetz. Um ein Motorboot zu mieten sollten Sie über 16 Jahre alt sein. Für das Mieten eines Bootes mit 15 PS und mehr, sollten Sie Erfahrung mitbringen. Für Boote mit 30 PS und mehr benötigen Sie einen Führerschein. Wir helfen gerne mit Tipps für gute Angelplätze, wundervolle Picknick Plätze und interessanten Attraktionen. Eine Karte vom Hardangerfjord ist an der Rezeption erhältlich."
+        
+      boat_5ps:
+        h1: "5 PS - Angel-Ausflugsboot"
+        h3: "5 PS - Angel- oder Ausflugsboot (14 Fuß)"
+        par1: "Dieses Boot ist gut geeignet für 2 bis 3 Erwachsene oder 2 Erwachsene und 2 Kinder zum Fischen oder für kleine Ausflüge (Link Ausflugsziele)"
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 480,-"
+        table_6_hours_price: "NOK 720,-"
+        table_8_hours_price: "NOK 840,-"
+        table_week_price: "NOK 4200,-"
+
+      boat_6ps:
+        h1: "6 PS - Angel-Ausflugsboot"
+        h3: "6 PS - Angel- oder Ausflugsboot (14 Fuß)"
+        par1: "Dieses Boot ist gut geeignet für 2 bis 3 Erwachsene oder 2 Erwachsene und 2 Kinder zum Fischen oder für kleine Ausflüge"
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 480,-"
+        table_6_hours_price: "NOK 720,-"
+        table_8_hours_price: "NOK 840,-"
+        table_week_price: "NOK 4200,-"
+
+      boat_15feet:
+        h1: "15 Fuss - Segelboot"
+        h3: "Segelboot für 6 Personen"
+        par1: "Das Segelschiff bietet 6 Schlafplätze, Bordküche mit Gasherd, Toilette mit Wassertank und ein Beiboot. Ideal geeignet um für mehrere Tage auf dem Fjord zu segeln."
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 1000,-"
+        table_6_hours_price: "NOK 1500,-"
+        table_8_hours_price: "NOK 1750,-"
+        table_week_price: "NOK 8750,-"
+
+      boat_10_15ps:
+        h1: "10/15 PS - Angelboot"
+        h3: "10/15 PS - Angelboot (15 Fuß)"
+        par1: "Dieses Boot ist gut geeignet für 4 bis 5 Personen zum Fischen oder für Tagesausflüge."
+        par2: "Hinweis:"
+        par3: "Das Boot verfügt über einen separaten Fischkasten."
+        par4: "Gegen eine Gebühr kann zusätzlich ein Echolot dazu gemietet werden."
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 600,-"
+        table_6_hours_price: "NOK 900,-"
+        table_8_hours_price: "NOK 1050,-"
+        table_week_price: "NOK 5250,-"
+
+      boat_25ps:
+        h1: "25 PS - Daycruiser"
+        h3: "25 PS - Daycruiser (15 Fuß)"
+        par1: "Dieses Boot ist gut geeignet für 4 Personen zum Fischen oder für Tagesausflüge."
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 680,-"
+        table_6_hours_price: "NOK 1025,-"
+        table_8_hours_price: "NOK 1200,-"
+        table_week_price: "NOK 6000,-"
+
+      boat_30ps:
+        h1: "30 PS - Daycruiser"
+        h3: "30 PS - Daycruiser (14 Fuß)"
+        par1: "Ideal geeignet für 4 Personen zum Fischen oder für Tagesausflüge."
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 720,-"
+        table_6_hours_price: "NOK 1080,-"
+        table_8_hours_price: "NOK 1260,-"
+        table_week_price: "NOK 6300,-"
+
+      boat_50ps:
+        h1: "50 PS - Schnellboot"
+        h3: "50 PS - Schnellboot (15 Fuß)"
+        par1: "Das Boot ist ideal geeignet für 4 Personen zum Fischen oder für Tagesausflüge. (Linke Ausflugsziele) Ausserdem hervorragend geeignet für Wasserski, Wasserboard oder Funboard / Tubes (ausführliche Informationen erhalten Sie beim Feriesenter-Team)."
+        h3_prices: "Preise:"
+        table_headline_1: "4 Std."
+        table_headline_2: "6 Std."
+        table_headline_3: "8 Std."
+        table_headline_4: "Woche"
+        table_4_hours_price: "NOK 1000,-"
+        table_6_hours_price: "NOK 1500,-"
+        table_8_hours_price: "NOK 1900,-"
+        table_week_price: "NOK 9500,-"
+        
+         
+    # Our Booking Offers - Our Cycles
+    bicyles: "Fahrräder"
+    
+    # the content
+    booking_bicyles:
+      h1: "Fahrräder mieten"
+      par1: "Fahrradstrecken in der Umgebung"
+      par2: "Am Hardanger Feriesenter vermieten wir Fahrräder für Kinder und Erwachsene. Es gibt eine Menge schöner Strecken, die fürs Radfahren ideal sind."
+      par3: "Dicht beim Hardanger Feriesenter gibt es eine herrliche, fast unbefahrene Straße, die direkt entlang am Fjord nach Øystese führt. Für den Rückweg nehmen Sie den Fußweg und den Radweg, bis Sie nach Børve abbiegen. Hier wird die Umgebung schöner und schöner, wenn Sie dem sanften Gefälle Richtung Neshagen zurück zum Hardanger Feriesenter folgen. Steinsdalen, außerhalb von Norheimsund, and Fitjadalen, außerhalb von Øystese, bieten auch schöne Fahrradstrecken. Wir können Ihnen weiterhin Strecken mit verschiedenen Schwierigkeitsgraden und Längen vorschlagen. Ob Sie sportlich oder unsportlich sind, je nach Umgebung oder ob Sie kleine Kinder dabei haben, wir schlagen Ihnen die passenden Routen vor."
+      h3: "Fahrradverleih-Preisliste"
+      table_headline_1: ""
+      table_headline_2: "1/2 Tag"
+      table_headline_3: "1 Tag"
+      table_headline_4: "3 Tage"
+      table_headline_5: "1 Woche"
+      table_headline_6: "2 Wochen"
+      table_trekkingbike_txt: "Trekking-Rad"
+      table_trekkingbike_price_1: "5,-"
+      table_trekkingbike_price_2: "8,-"
+      table_trekkingbike_price_3: "20,-"
+      table_trekkingbike_price_4: "45,-"
+      table_trekkingbike_price_5: "80,-"
+      table_ebike_price_1: "10,-"
+      table_ebike_price_2: "16,-"
+      table_ebike_price_3: "40,-"
+      table_ebike_price_4: "90,-"
+      table_ebike_price_5: "160,-"
+      par4: "*Preise sind in EURO"
+
+ 
+  # Activities
+  activities:
+    intro: "Hier gelangen Sie zu unseren angebotenen Aktivitäten:"
+    fishing:
+      h1: "Angeln"
+      par1: "Die Wunder dieser Erde hautnah erleben, den Einklang der Natur spüren, die Freiheit in sich aufnehmen – Angeln im Hardanger Fjord" 
+      par2: "Der Hardangerfjord ist ein etwa 170 Kilometer langer Fjord an der südwestlichen Atlantikküste Norwegens im Fylke Hordaland. Er ist somit einer der längsten, mit 854 Metern einer der tiefsten und natürlich einer der fischreichsten Fjorde an der norwegischen Küste."
+      par3: "Über die Artenvielfalt des Lebens unter Wasser, Angeltechniken, wissenswertes über die einzelnen Fischarten ob Salz- oder Süßwasser, benötigte Ausrüstungen, Wetter und Gezeiten, Sicherheit auf See, Rechtliches und vieles mehr möchten wir Ihnen die Fjord-Line Seite"
+      link_fishing_norway: "www.angeln-in-norwegen.de"
+      par4: ans Herz legen, ein ausgezeichnetes Werk an benötigten Informationen."
+      par5: "Einen Bereich möchten wir Ihnen aber noch besonders ans Herz legen:"
+      par6: "Respektieren Sie die vorgeschriebenen Mindestgrößen der Fische, um den Fischbestand im Hardanger Fjord und in den gesamten norwegischen Gewässern zu schonen. Sollten Sie einen untermaßigen Fisch fangen, lösen Sie ihn vorsichtig vom Haken und setzen ihn zurück ins Wasser. Einen stark verletzten oder toten Fisch dürfen Sie mit nach Hause nehmen und verzehren. Ein faires Umgehen mit der Natur und den Tieren sichert den Fischreichtum auch für Ihre nächsten Angelurlaube bei uns im Hardanger Resort."
+      par7: "Fischart: Heilbutt m/m 80 cm – Kabeljau m/m 40 cm – Schellfisch m/m 31 cm"
+      par8: "Eine vollständige Tabelle der Mindestfischmaße und aktualisierte Vorschriften zum Fischfang vor der norwegischen Küste und in den Fjorden finden Sie unter"
+      link_fisker: "www.fiskeridir.no"
+      par9: "Wir wünschen Ihnen „Petri Heil“ – nachfolgend freuen Sie sich auf eine kleine Bildergalerie erfolgreicher kleiner und großer Angler."
+      par10: "Boote mit unterschiedlicher Motorisierung können Sie direkt bei uns im Resort mieten."
+      par11: "Unser Angelguide führt Sie gerne zu den fängigsten Plätzen und informiert Sie über die besten Angeltechniken im Hardanger Fjord."
+      par12: "Sollten Sie weitere Informationen über den Bereich Angeln, Boote oder sonstiges benötigen, fragen Sie bitte unser Personal an der Rezeption."
+      h3_price: "Preisangeln"
+      par13: "Von Anfang April bis Ende Oktober bieten wir die Möglichkeit an einem Wettangeln teilzunehmen. Das Preisangeln findet von unseren Booten aus statt. Ausschlaggebend für die Platzierung ist nicht die Anzahl der Fische, sondern das gefangene Gesamtgewicht der Fische. Bitte informieren Sie sich beim Fischguide, wann das Preisangeln angesetzt wird. Hier erhalten Sie auch Auskunft über das Startgeld, in dem bereits die Bootsanmietung enthalten ist. Alle Startgelder abzüglich der Kosten der Boote werden komplett in Sachpreisen ausgeschüttet. Die gefangenen Fische dienen zum Abschluß des Wettangelns zum Verzehr beim gemeinsamen Grillen."
+      h3_fishguide: "Fischguide"
+      par14: "Unser Fischguide vor Ort, Thorsten Kitzmann, informiert Sie gerne über alle Fragen rund um das Fischen im Hardanger-Fjord im Bereich Norheimsund. Durch seine gesammelten Erfahrungen kann er Sie über die besten Fangplätze und -tiefen beraten. Gerne begleitet Sie Herr Kitzmann gegen eine zu vereinbarende Gebühr bei Ihrem Angelausflug."
+
+    hiking:
+      h1: "Wandern"
+      h3_borve: "Wandern durch Neshagen nach Børve"
+      par1: "Bei dieser Route passieren Sie Norwegens größte Eichenbäume. Vom Waldweg aus fahren Sie durch eine Obst Plantage vorbei am Reitcenter zu dem Golfplatz."
+      par2: "Der Waldweg startet an der ersten Biegung in Neslia direkt oberhalb des Hardanger Feriesenter. Nach 200 Metern kommen Sie an die geschützten Eichen. Es gibt insgesamt 13 ausgehöhlte Eichen in diesem ungewöhnlichen Gebiet. Auf der Spitze der Bergseite liegt Neshagen Hyttegrend mit seinem großartigen Blick auf den Hardanger Fjord. Der Weg führt weiter durch die Obst Plantage zum Reitcenter Børve Gård. Folgen sie dem Pfad abseits des Reitgebietes, bis Sie die Straße zum Golf Platz erreichen. Von hier können Sie den alten Wirtschaftsweg zurück hinunter zum Hardanger Feriesenter nehmen."
+      par3: "Start: Parkplatz bei Neslia"
+      par4: "Länge: 2 Stunden"
+      h3_movatnet: "Spaziergang um Movatnet"
+      par5: "Der Spaziergang um den Movatnet See eröffnet eine Reihe von Eindrücken. Entlang des Weges kommen Sie an zwei Wohnsiedlungen und an zwei Wasserfällen vorbei."
+      par6: "Von Norheimsund folgen Sie dem alten Weg nach Steinsdalen durch die jüngste Wohnsiedlung der Gemeinde. Beim Steinsdalsfossen Wasserfall können Sie den Weg hinter den Wasserfall hinaufgehen. Steinsdalen ist Kvam’s beste landwirtschafliche Fläche. Hier gibt es Feldhütten, deren Wurzeln 3000 Jahre zurückreichen. Bei Neshus können Sie Bergabsätze sehen, an denen der Wasserfall sich im Wind wiegt. Von dort geht ein idyllischer Weg entlang an der Nord Seite des Movatnet Sees weiter nach Sundsvik, über die alte Brücke von 1909 zurück nach Norheimsund."
+      par7: "Start: Norheimsund City"
+      par8: "Länge: 1,5 – 2 Stunden"
+      h3_sogestien: "Sogestien Weg in Fitjadalen"
+      par9: "Der Sogestien Weg in Fitjadalen ist reich an natürlicher und kultureller Geschichte. Potholes oder Gletschermühle, Fabeln, reiche Fischvorkommen und alte Bauernhöfe sind die Schlagworte, die diese Tour beschreiben."
+      par10: "Die Tour startet von Klypeleitet an den Bootshäusern von Vadet. Als Erstes gehen Sie einer Hängebrücke entgegen, die sich über dem stürmischen Wasser erstreckt. Am Pfad finden Sie 27 Poster, die etwas über die Lebenssituation von Fitjadalen in alten Zeiten erzählen. Der Pfad endet bei einer Gletschermühle in Geitabruhølen, wo der Fluß Steine über Millionen von Jahren sich hat drehen und wirbeln lassen. Es ist schön, an dieser Stelle eine Pause zu machen, bevor man sich auf den Rückweg nach Vadet begibt. Auf dem Weg kommt man an den Bergen von Fetet vorbei und geht den malerischen Pfad entlang zum Strand des Fitjadalsvatnet Sees."
+      par11: "Start: Parkplatz bei den Bootshäusern in Vadet"
+      par12: "Länge: 2,5 Stunden"
+      h3_soldal: "Soldal und der Goldfisch Teich"
+      par13: "Skårsvatnet wird weitgehend für sein Vorkommen der Goldorfe gewürdigt und wird mit Gullfiskvatnet oder dem Goldfisch See in Verbindung gebracht. Das Gebiet ist voll von schöner und natürlicher Szenerie."
+      par14: "Die Route startet von der Skischanze in Myrane und geht hinauf nach Soldal. Sie betreten ein Bauerndorf mit einer Mischung aus alten und neuen Gebäuden. Ein Jugendzentrum und eine Schule sind auch Teil der kleinen Ortschaft. Die Straße geht abwärts und führt hinter dem Jugendzentrum zum Gullfiskvatnet. Die Region heißt Besucher willkommen, aber Angeln ist verboten. Außerhalb des Sees treffen Sie auf die Töpferei Vetlehagen Keramikk. Wenn Sie dem Pfad nach Froestad folgen, bekommen Sie einen Eindruck wie abschüssig ein Bauernhof in West-Norwegen gelegen sein kann."
+      par15: "Start: Myrabakken"
+      par16: "Länge: 3 Stunden"
+      
+    boat_tours:
+      h1: "Bootstouren"
+      h3: "Segeln"
+      length: "Dauer: "
+      par1: "Der Hardanger Fjord bietet unendliche Möglichkeiten zum Segeln für alle Bootsklassen."
+      h2_arranged: "Arrangierte Bootstouren"
+      h3_viking_ship: "Das Wikingerschiff"
+      par2: "Erleben Sie eine Segeltour mit einem echten Wikingerschiff. Der Name des Wikingerschiffes ist Tyra und bietet Platz für bis zu 10 Personen. Die Touren eignen sich sehr gut für Familien mit Kindern, natürlich aber auch für sonstige Gruppen und auch bei ausreichender Teilnehmerzahl für Einzelpersonen. Sie sind aktiver Teil der Besatzung, dazu gehört neben dem Rudern natürlich auch bei guten Windverhältnissen das Segeln. Lauschen Sie während der Fahrt den Erzählungen des Schiffers über das Leben in Hardanger zu den Zeiten der Wikinger. Die Ausflüge können auf Vorbestellung über uns gebucht werden"
+      h3_eidfjord: "Eidfjordtour mit dem Schnellboot"
+      par3: "8 – 9 Stunden"
+      par4: "Erleben Sie eine faszinierende Tagestour in den Eidfjord mit dem Schnellboot \"MS Tedno\". Morgens um 9 Uhr geht es los ab Norheimsund Hafen. Die Stationen sind Herand, Utne, Lofthus, Kinnsavik, Ulvik und Eidfjord und zurück (gegen 17.30 Uhr legt das Schnellboot in Norheimsund wieder an)."
+      par5: "Erleben Sie atemberaubende Natur, wunderschöne Wasserfälle, die Obstplantagen von Lofthus und vieles, vieles mehr. In Eidfjord haben Sie ca. 2,5 Std. Aufenthalt und können in aller Ruhe die Umgebung erkunden. Alternativ empfehlen wir die Sightseeing-Tour mit dem Bus. Hier erleben Sie das Hardangervidda Nature Center und eine abwechslungsreiche Busfahrt zum Tal Måbødalen, wo Sie den eindrucksvollen Wasserfall \"Vøringsfossen\" bestaunen können. Für die \"Aktiven\" ist es selbstverständlich auch möglich, an den genannten Stationen aus zu steigen, zu wandern, zu klettern, eine Radtour zu machen und vieles mehr, um dann am Nachmittag auf der Rücktour nach Norheimsund wieder auf das Schnellboot zuzusteigen. An Bord gibt es kleine Snacks, Kaffee, Tee und kalte Getränke zu kaufen. Nähere Informationen erhalten Sie gerne bei unserem Feriesenter-Team."
+      h2_self: "Selbst geplante Bootstouren"
+      h3_steinst: "Steinstø – Botnen – Kvamsøy"
+      par6: "6 – 8 Stunden"
+      par7: "Sie starten in der Bucht in Øystese und fahren zum Hardanger Aqua Culture Centre in Steinstø. Hier verlassen Sie das Boot und besuchen das Center, wo Sie eine Einführung in die Aquakultur erhalten können."
+      par8: "Der Ausflug geht dann weiter unter der Fyksesund Brücke, vorbei an Fykse und Porsmyr in der Bucht hinter der Klyve Insel. Dort spiegeln sich bei ruhiger See die Felsen im Fjord – faszinierend. Bei normalen Wetterkonditionen spiegelt sich der Klyve Berg mit 800 Metern bis in die Wassertiefe darunter. Das erzeugt einen visuellen Höhenunterschied von 1600 Metern. Es ist ein atemberaubendes Erlebnis, leise in den engen, glasklaren Fjord zu gleiten. Und an den steilen Felsen tosen die Wasserfälle und Stromschnellen herunter."
+      par9: "Das sind unvergessliche, magische Momente."
+      par10: "Wenn Sie in Botnen ankommen, sollten Sie an Land gehen und das Tal hinaufgehen. Sie befinden sich hier in einer fast vergessenen Welt. In einer Landschaft, die noch immer so aussieht wie in 1905, als die kleine Stadt verlassen wurde. Die hohen Berge und die Ahnung dieser eigentümlichen Abgeschiedenheit machen Ihnen klar, wie seltsam unsere modern und betriebsame Welt ist. Neben dem Anleger sind Tische und Stühle für eine Pause. Toiletten finden sich im alten Schulhaus etwas weiter oben."
+      par11: "Auf dem Rückweg können Sie kurz an der nordöstlichen Landzunge von Kvamsøy verweilen. Es ist einfach, hier anzulegen, und an Land die Nachmittagssonne zu genießen. Dieser Ort bietet sich für ein Picknick an."
+      h3_kvam: "Kvamsøy – Herand - Hereiane – Sollesnes – Aksnesholmane"
+      par13: "An der Westseite von Kvamsøy geht es los. Fahren Sie die Küste entlang, bis Sie einen kleinen Bootssteg mit einem Bootshaus erreichen, wo sie das Boot vertäuen können. Hier gehen Sie an Land und folgen dem Weg bis zum höchsten Punkt im Süden der Insel. An diesem Ort haben sie einen schönen Blick über den Fjord. Sehr empfehlenswert auch für ein Picknick!"
+      par14: "Dann überqueren Sie den Fjord Richtung Samlahalvøya, und folgen der Küstenlinie bis zu dem Städtchen Herand. Am Gästehafen gehen Sie an Land. Es gibt verschiedene Aktivitäten hier. Der Gästehafen ist gut eingerichtet für Besucher. In der Nähe ist eine Touristen-Information und einen Supermarkt. Oberhalb des Hafens ist ein Ruderboot-Museum, und darüber die alte Säge und eine Mühle, die komplett intakt sind. 2008 war Herand nominiert für den Kulturlandschaftspreis."
+      par15: "Weiter geht es ab Herand, Sie passieren Herandsholmene, und weiter nach Heraiane – eine völlig andere Landschaft mit glatten Felsen und kurzen Pinien. Versuchen Sie mal, auf diesen Felsen zu gehen. Es ist erstaunlich einfach! Vielleicht wollen Sie auch die neue Raststätte an der Straße aufsuchen – dort gibt es Toiletten."
+      par16: "Weiter entlang des Fjordes fahren Sie an den Bootshäusern in Svåsand vorbei, und erreichen die Bucht von Sollesnes. Hier gibt es einen schönen Kai, von dem aus Sie zu den typischen alten Farmhäusern flanieren können. Der Schiefer, den Sie hier sehen, ist von bester Qualität. Sollesnes ist weitreichend bekannt für den Schiefer, den man in so vielen alten Häusern in Hardanger kennt."
+      par17: "Auf Ihrem Rückweg über den Fjord passieren Sie Aksnesholmene. Das ist ein Vogelreservat mit verschiedenen, nestbauenden Seevogel-Arten. Während der Brutphase dürfen Sie nicht an Land gehen, aber Sie können jederzeit Fotos vom Boot aus machen."
+      par18: "Ausführliche Informationen über unsere Bootstouren erhalten Sie im Hardanger Feriesenter, Boote können vor Ort gemietet werden."
+
+    canoeing:
+      h1: "Kanu fahren"
+      par1: "Paddeln im Fyksesund Fjord"
+      par2: "Kaum einer kann sich eine bessere Stelle vorstellen als an den steilen Berghängen des Fyksesundfjordes vorbei zu paddeln."
+      par3: "Wenn Sie Klyvehalvøya passieren öffnet sich der Fjord zu einer großen Bucht. Das Gebiet ist gut vor Wind geschützt, so dass die Wasserfläche häufig still wie ein polierter Spiegel ist. Die Bergspitzen sind bis zu 800 Meter hoch, und wenn sie sich im Wasser unter Ihnen spiegeln, ermöglicht Ihnen der optische Effekt eine Höhenerfahrung von 1600 Metern. Es ist ein magisches Naturerlebnis, das Sie kaum woanders auf der Welt finden werden."
+      par4: "Bei Fyksesund Braut in Porsmyr können Sie Kajaks mieten."
+      link_fyksesund: "Lesen Sie mehr über Fyksesund Braut (externer Link)"
+
+    swimming:
+      h1: "Baden"
+      par1: Direkt auf unserem Feriengelände lädt die Bucht mit glasklarem Wasser und angenehmen Temperaturen zum Baden ein. Hier können Sie direkt zur Badeinsel schwimmen, sich auf der Naturstein-Promenade sonnen und Ihren Kindern beim Baden zusehen. Weitere Bademöglichkeiten finden Sie entlang des Fjordes von Strandebarm bis Ålvik. Informationen erhalten Sie in der Rezeption.
+      par2: Gerne erklären wir Ihnen auch die zum Baden geeigneten Bergseen, wie z.B. Skårsvatnet oder den Fitjadalssee. Fragen hierzu beantwortet gerne unser Team im Hardanger Feriesenter oder rufen Sie uns direkt an.
+
+    cycling:
+      h1: "Radfahren"
+      h3: "Fahrradstrecken in der Umgebung"
+      par1: "Am Hardanger Feriesenter vermieten wir Fahrräder für Kinder und Erwachsene. Es gibt eine Menge schöner Strecken, die fürs Radfahren ideal sind."
+      par2: "Dicht beim Hardanger Feriesenter gibt es eine herrliche, fast unbefahrene Straße, die direkt entlang am Fjord nach Øystese führt. Für den Rückweg nehmen Sie den Fußweg und den Radweg, bis Sie nach Børve abbiegen. Hier wird die Umgebung schöner und schöner, wenn Sie dem sanften Gefälle Richtung Neshagen zurück zum Hardanger Feriesenter folgen."
+      par3: "Steinsdalen, außerhalb von Norheimsund, and Fitjadalen, außerhalb von Øystese, bieten auch schöne Fahrradstrecken."
+      par4: "Wir können Ihnen weiterhin Strecken mit verschiedenen Schwierigkeitsgraden und Längen vorschlagen. Ob Sie sportlich oder unsportlich sind, je nach Umgebung oder ob Sie kleine Kinder dabei haben, wir schlagen Ihnen die passenden Routen vor."          
+        
+    riding:
+      h1: "Reiten"
+      h3: "Reiten in Øystese"
+      par1: "Das Stuve Reitcenter liegt 5 Kilometer vom Hardanger Resort entfernt und beheimatet viele unterschiedliche Pferde. Es beherbergt eine große Reithalle und die umliegende Umgebung ist toll zum Ausreiten. Erleben Sie die atemberaubende norwegische Natur zusammen im Einklang mit den kraftvollen Pferden."
+      par2: "Das Zentrum bietet Reitstunden und Ausflüge für jedes Niveau – vom Anfänger bis zum fortgeschrittenen Reiter. Wochenendkurse und Reitcamps werden organisiert. Die Pferde sind straßenerprobt und kinderfreundlich. Bringen Sie gerne Ihre Kinder zu den Ställen, um die Pferde anzuschauen. Wie wäre es, wenn Sie Ihr kleines Mädchen zum Pony Reiten bringen?"
+      par3: "Kontaktieren Sie das Reitzentrum rechtzeitig und machen Sie einen Termin aus."
+     
+    ladies_point:
+      h1: "Ladies Point"
+      h3: "Erholen Sie sich beim \"Ladies Point\""
+      par1: "Gönnen Sie Ihrem Körper, Ihrem Gesicht und Ihren Händen einen kleinen Urlaub im Urlaub."
+      par2: "In den kleinen gemütlichen Räumlichkeiten dürfen Sie sich u.a. auf diese Angebote freuen:"
+      par3: "- Rollen-Band-Massage"
+      par4: "- Wellness-Massagen"
+      par5: "- Gesichts- und Körperpflege"
+      par6: "- Kosmetik und mehr"
+      par7: "- Vital und Gesund"
+      par8: "- Kleben und Erleben"
+      par10: "- Vorträge"
+      par11: "für weitere Informationen bitte den Link klicken:"
+      link_ladies_point: "http://www.ladiespoint.eu"
+
+    extreme_sport:
+      h1: "Extremsport"
+      h3: "Rafting & Mehr"
+      par1: "Nur eine Autostunde entfernt empfehlen wir eine außergewöhnliche Attraktion für unsere sportlichen Gäste. In dem Ort Voss finden Sie eine besondere Art der Freizeitgestaltung. Erleben Sie in einer atemberaubenden Natur den Nervenkitzel beim Wildwasser-Rafting, das ruhigere Familien-Rafting, das Riverboarding, das Canyoning bis hin zum Wasserfallklettern. Informationen über das Voss Rafting Center erhalten Sie in unserer Rezeption. Gerne übernehmen wir für Sie die Buchung beim Veranstalter und planen für Sie die zeitlichen Abläufe."
+      h3_surfing: "Surfen"
+      par2: "Der Hardanger-Fjord bietet ein ausgezeichnetes Surf-Revier. Ständige Winde vom Atlantik, dabei aber relativ ruhiges Wasser erwartet Sie hier."
+
+    culture:
+      h1: "Kultur"
+      h3: "Die Geschichte vom Gehöft \"Nes Gard\" / Das Räubermahl"
+      par1: "Das Gehöft \"Nes Gard\" hat seine Wurzeln in der frühen Wikingerzeit. Auf der Landzunge am Fjord befinden sich 7 Gräber aus der Zeit von 800 bis 850 n. Chr.."
+      par2: "Nach dem \"Schwarzen Tod\" (der Pest) wurde der Betrieb von dem Gründer Geirmund Birgesson wieder aufgenommen (1620). Seit dem und bis heute ist das Gehöft über 12 Generationen im Familienbesitz der Familie Nes."
+      par3: "\"Nes Gard\" ist ein gutes Beispiel für das funktionierende Selbstversorgungssystem in Westnorwegen im Fjordgebiet. Zu dem Gehöft gehören 3 Grundstücke verteilt vom Fjord über das Waldgebiet in ca. 300 m Höhe bis in die höchste Alm im Gebirge in ca. 800 m Höhe. Durch die Ressourcen, die man hierdurch ausnutzen konnte war es möglich, alles herzustellen, was für das Überleben benötigt wurde."
+      par4: "Von den Grundlagen dieses Selbstversorgungssystems haben sich im Laufe der Jahrhunderte viele verschiedene Geschäftsmöglichkeiten entwickelt, z. B. der Schiffbau, die Landwirtschaft, die Viehzucht sowie die Fischerei und der Transport, weiter die Herstellung von Möbeln und Musikinstrumenten aus Holz und zuletzt auch der Tourismus."
+      par5: "Auf Nachfrage können Sie eine Führung über den Hof, durch den Garten und zur 1000-jährigen Eichen buchen mit einem abschließenden traditionellen Räubermahl im \"Gamlestova\"."
+      h3_museum: "Das Museums-Gehöft \"Nes Gard\""
+      par6: "Eine Führung in die westnorwegische Kulturgeschichte"
+      par7: "Ein norwegisches Gehöft ist eine historische Wohn- und Arbeitsumgebung, in der eine Großfamilie oder mehrere Generationen gemeinsam gelebt haben. Nes Gard wurde über 12 Generationen hindurch geprägt durch gute wie auch schwierige Zeiten. Die unterschiedlichen Generationen haben immer versucht, durch Selbstversorgung ihr Auskommen zu finden, sie waren tief mit der Natur verbunden und davon abhängig. Durch das Zusammenspiel in der großen Gemeinschaft, haben auch Familien ihre Lebenssituationen verbessern können."
+      par8: "All diese Anpassungen haben uns eine einzigartige und variable Umgebung mit vielfältigen Lösungen von Haustypen und Bauweisen gegeben."
+      par9: "Die Baugeschichte"
+      par10: "Das älteste Haus auf dem Gehöft ist eine so genannte \"Rauchstube\" aus dem 16. Jahrhundert. Dieser Haustyp war der wichtigste traditionelle Wohnraum für die Norweger in den letzten 1000 Jahren und bietet im \"Gamlestova\" einen guten Eindruck von den damaligen Lebensverhältnissen."
+      par11: "Alles ist authentisch restauriert und zurückgeführt worden. Die Einrichtung zeigt einen wahren Eindruck von der Lebenssituation in Hardanger aus dem späten 17. Jahrhundert."
+      par12: "Im mittleren Teil des Fjordgebietes haben wir eine Kombination von Stab- und Blockhaustradition und die 10 Häuser des Gehöftes zeigen, wie sich die Baugeschichte entwickelt hat."
+      par13: "Unsere Gegend ist ein Kerngebiet für die Stabbautechnik und innerhalb der Blockhausbauten haben wir vier verschiedene Hauptvarianten. Die unterschiedlichen Gebäude haben jedes ihren respektiven Zweck und umfassen die Bedürfnisse für alle Tiere, den Ackerbau, für Früchte und Beeren, im Wald, der Fjordfischerei sowie der Almen im Wald und im Hochgebirge."
+      par14: "Ein eigenes Museum ist in der Entwicklung, um einen tieferen Einblick in die jeweiligen Verhältnisse zu geben."
+      h3_hfs: "Das \"Hardanger Fartøyvernsenter\" (HFS) ist eine Museumswerft"
+      par15: "Hier werden Museums-Schiffe und Boote restauriert, wieder zu Wasser gelassen, gewartet und wieder genutzt. Besonders schön ist, dass die Besucher den Handwerkern bei der Arbeit zusehen können. Alle Werkstätten sind für kleine und große Gäste geöffnet. Und Sie können sich als Besucher in Ihren eigenen Fähigkeiten in den verschiedenen Handwerken selber versuchen."
+      par16: "Die Hardanger Museumswerft (HFS) ist bekannt für die Erhaltung und Fortführung des alten traditionellen Handwerks und ist eins von drei nationalen Schiffserhaltungszentren. Das HFS ist Besitzer der Hardangeryacht \"Mathilde\", die Sie häufig auf dem Hardangerfjord fahren sehen können."
+      par17: "Das Hardanger Fartøyvernsenter ist jährlich von Anfang Mai bis Ende August geöffnet. Während dieser Zeit hat auch das dortige Café und der Souvenirshop geöffnet."
+      par18: "Ein absolutes MUSS für jeden, der in Kvam zu Besuch ist."
+
+    golf:
+      h1: "Golf"
+      h3: "Golf in Børve"
+      par1: "Der Golfplatz in Børve ist schön gelegen auf einem Berg, mit Blick auf den Fjord. Der Platz hat 6 Löcher und es gibt einen Übungsplatz zum Schlagen und ein kleines Clubhaus."
+      par2: "Es gibt während der Saison eine Reihe von Meisterschaften. Um auf dem Platz spielen zu können, müssen Sie Mitglied eines norwegischen Golf Clubs sein. Es gibt einen 5tägigen Einführungskurs ins Golfspielen beim Børve golf course. Für diese Kurse sollten Sie sich rechtzeitig bei Helge Brunborg anmelden."
+      par3: "Sie brauchen etwa 15 Minuten vom Hardanger Feriesenter aus zu Fuß oder ca. 10 Minuten mit dem Auto."
+      link_golf: "Lesen Sie mehr über den Hardanger Golf Club (externer Link)"
+
+    wintersports:
+      h1: "Wintersport"
+      par1: "Nachfolgend erhalten Sie Informationen über die in wenigen Autominuten zu erreichenden Wintersportgebiete in unserer Region."
+      par2: "Bei uns können Sie acht Monate im Jahr Wintersport betreiben. Wenn das Skifahren nach Ostern in Kvamskogen endet, beginnt das Sommer Skifahren in Folgefonna."
+      par3: "Wecken Sie mit uns einen schlafenden Wintersport-Riesen und genießen Sie einen außergewöhnlichen Urlaub in den scheinbar unendlichen Weiten einer sagenhaften Natur. Vergessen Sie die Ihnen bekannten Wartezeiten am Lift und überfüllte Abfahrten bzw. Loipen, hier ist alles ein wenig anders. Verschaffen Sie sich einen eigenen Eindruck und schauen Sie in unsere anliegende Bildergalerie und träumen Sie von Ihrem nächsten Urlaubsziel – Hardanger Feriensenter"
+      h3: "REISEZIEL NORHEIMSUND – WINTERAKTIVITÄTEN/KVAMSKOGEN"
+      par4: "Kvamskogen ist das grösste Wintersportgebiet in Westnorwegen und umfasst 3 Skigebiete mit 60 km an präparierten Langlaufstrecken. Kvamskogen liegt nicht einmal eine Autofahrtstunde entfernt von Bergen und lediglich 10 Minuten von Norheimsund bzw. unserem Hardanger-Resort. Es gibt 6 Skilifte, die Ihnen Zugang zum 17 km großen Skigebiet geben. Im Übrigen findet man spezielle Kinderskigebiete, Rodelberge, Flutlicht für Nachtskifahrten, Mietmöglichkeiten von Hundeschlitten und Einrichtungen für die Herstellung von Kunstschnee. In der Wintersaison ist in Norheimsund Wintersport im Zentrum des Interesses. Skifahren und Rodeln steht dann im Blickwinkel für den Urlaub. Das ausgezeichnete Skigebiet Furedalen Alpin/Kvamskogen sorgt für optimale Bedingungen für das Skifahren"
+      h3_furedalen: "Das Skigebiet Furedalen"
+      par5: "Skigebiet: Furedalen Alpin/Kvamskogen (6.28 km), Höhenunterschied: 364 m - 589 m Pistenlänge gesamt: 6.4 km, davon 5,3 km leicht Liftanlagen:"
+      par6: "* Röyrlibrotet I, Länge: 207 m, Kapazität/Stunde: 1200"
+      par7: "* Röyrlibrotet II, Länge: 537 m, Kapazität/Stunde: 1200"
+      par8: "* Kvamskogen, Länge: 500 m, Kapazität/Stunde: 1200"
+      par9: "Skilifte gesamt: 3, Kapazität insgesamt: 3600 Personen pro Stunde, Pistenlänge gesamt: 6.4 Kilometer"
+      link_furedalen: http://www.skiurlaub-infos.de/183/norwegen/hordaland/kvam/norheimsund/1.html
+      link_desc: "Lesen Sie mehr über © by skiurlaub-infos.de. (externer Link)"
+      h3_eikedalen: "Das Skigebiet Eikedalen"
+      par10: "Ein weiteres wunderschönes und gerade für den Liebhaber des alpinen Wintersports anspruchsvolles Skigebiet ist Eikedalen, etwa 20 Autominuten von Norheimsund bzw. unserem Resort und ca. 1 Stunde von Bergen entfernt. Es gibt 8 Skilifte, die Ihnen Zugang zu einem weiteren Wintermärchen verschaffen. Vorort kann eine komplette Ski- bzw. Snowboard-Ausrüstung ausgeliehen werden. Auch die Schlittenliebhaber kommen hier nicht zu kurz, ideal auch für Familien"
+      par11: "Skigebiet: Eikedalen Höhenunterschied: 450 m - 920 m Pistenlänge gesamt: 5,3 km, überwiegend schwierige Abfahrten Skilifte gesamt: 8, Kapazität insgesamt: 9600 Personen pro Stunde Durchschnittliche Schneehöhe in der Saison von Dezember bis April 2,50 m"
+      par12: "Schwierige Loipe Mittlere Loipe Leichte Loipe"
+      h3_sjusete: "Sjusete Skicenter"
+      par13: "Das nächste Skigebiet zum Hardanger Feriesenter ist der Sjusete Skisenter. Es ist etwa 10 Minuten entfernt und bietet 5 Kilometer präparierte Pisten, mit Flutlicht in der Nacht und einer neuen Biathlon Arena."
+      par14: "Die Skipisten in Sjusete werden als die Besten des Landes betrachtet und sie bieten schöne Ausblicke. Sie können Ihre Skier direkt neben dem Parkplatz anschnallen. Angrenzend ans Service Gebäude liegt das Café, die Toiletten und das Clubhaus."
+      par15: "Direkt unter dem Parkplatz befindet sich eine der Hütten des Hardanger Resorts, welche Sie mieten können."
+      link_sjusete: "Lesen Sie mehr über Sjusete Skisenter (externer Link)"
+      h3_summer: "Folgefonna Sommarskisenter"
+      par16: "Folgefonna Sommarskisenter ist das südlichste Skigebiet Norwegens. Die Höhe der Abfahrt ist 250 Meter und mit 1100 Metern ist sie die Längste ihrer Art."
+      par17: "Eine befestigte Straße geht hinauf zum Skigebiet. Der Parkplatz grenzt an den Folgefonna Kiosk. Im Service Gebäude können Sie Erfrischungsgetränke und Speisen erwerben. Hier können Sie sich auch Skier und Snowboards ausleihen. Das Gebiet hat eine Buckel Piste und eine Springschanze, und bietet einige gute off-piste Skifahrmöglichkeiten. Die Saison beginnt normalerweise an Ostern und dauert bis August an."
+      par18: "Denken Sie bitte an Sonnencreme und warme Kleidung, da das Wetter unerwartet wechselt."
+      par19: "Folgefonna Sommarskisenter ist auch ein Startpunkt für begleitete Touren auf den Gletscher."
+      link_summer: "Lesen Sie mehr über Folgefonna Sommarskisenter (externer Link)"
+
+
+  legal:
+    manager: "Geschäftsführer: "
+    responsibility: "Inhaltlich verantwortlich gemäß § 10 Absatz 3 MDStV: Hardanger Feriesenter AS"
+    copyright_h3: "Urheber- und Kennzeichenrecht:"
+    copyright_par: "Copyright © 2015 Hardanger Feriesenter AS. Alle Rechte vorbehalten."
+    org_number_h3: "Norwegische Registernummer:"
+    tax_h3: "Finanzamt:"
+    tax_par: "Skatt Vest, Norwegen"
+    data_protection_h3: "Datenschutz:"
+    data_protection_par1: "Alle an die Hardanger Feriesenter AS gesandten personenbezogenen Daten werden nur für die Zwecke des Austausches von Informationen mit dem Absender gespeichert. Die Behandlung der Daten erfolgt in Übereinstimmung mit den Bestimmungen des Bundesdatenschutzgesetzes."
+    data_protection_par2: "Eine Weitergabe der Daten an Dritte erfolgt nicht ohne ausdrückliche Zustimmung der Betroffenen."
+    disclaimer_h3: "Haftungshinweis:"
+    disclaimer_par: "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
