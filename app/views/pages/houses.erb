@@ -1,0 +1,149 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-4">
+      <%= render 'layouts/booking_box' %>
+    </div>
+    <div class="col-md-8">
+      <code>Some intro here with images or general booking form</code>
+      <% events = parse_cal 'https://api.webrez.com/hotel/1260/unit_availability_calendar_ical/51205' %>
+       <ul>
+        <% events.each do |e| %>
+            <li>Hello</li>
+          <% end %>
+       </ul>
+
+    </div>
+  </div>
+
+  <%= block_header 'nesvika', 'houses.nesvika.name' %>
+  <div class="embed-responsive embed-responsive-2by1">
+    <%= image_tag('booking_cottages/nesvika_exterior.jpg', :class => 'img-responsive img-2by1', :style => 'width: 100%; height: auto') %>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-md-8">
+
+      <p><%= t 'houses.nesvika.intro' %></p>
+      <h3><%= t 'houses.nesvika.interior_header' %></h3>
+      <p><%= t 'houses.nesvika.interior_p1' %></p>
+      <p><%= t 'houses.nesvika.interior_pref' %></p>
+      <div class="alert alert-success">
+        <strong><%= t 'houses.nesvika.bedlinen_tip' %></strong><%= t 'houses.nesvika.bedlinen_tip_desc' %>
+      </div>
+
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading"><%= t 'houses.technical_info'%></div>
+        <table class="table">
+          <%= table_row 'houses.capacity', (t 'houses.nesvika.capacity_desc') %>
+          <%= table_row 'houses.area', 'ca. 70 m2 (750 ft2)' %>
+          <%= table_row 'houses.built_year', '1989' %>
+          <%= table_row 'houses.rooms', (t 'houses.nesvika.rooms_desc') %>
+          <%= table_row 'houses.parking', (t 'houses.nesvika.parking_desc') %>
+          <%= table_row 'houses.facilities', (t 'houses.nesvika.facilities_desc') %>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/nesvika1/nesvika1_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.nesvika1.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.nesvika1.individual'%></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/nesvika2/nesvika2_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.nesvika2.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.nesvika2.individual'%></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/nesvika3/nesvika3_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.nesvika3.h3'%> <span class="label label-success" data-toggle="tooltip" data-placement="left" title="<%= t 'houses.booking_cottages.nesvika3.wheelchair_info' %>"><i class="icon-wheelchair"></i></span></h3>
+      <p><%= t 'houses.booking_cottages.nesvika3.individual'%></p>
+    </div>
+  </div>
+
+
+  <%= block_header 'neshagen', 'houses.neshagen.name' %>
+  <div class="embed-responsive embed-responsive-2by1">
+    <%= image_tag('booking_cottages/neshagen6/neshagen6_5.PNG', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-md-7">
+
+      <p><%= t 'houses.neshagen.intro' %></p>
+      <h3><%= t 'houses.neshagen.interior_header' %></h3>
+      <p><%= t 'houses.neshagen.interior_p1' %></p>
+      <p><%= t 'houses.nesvika.interior_pref' %></p>
+      <div class="alert alert-success">
+        <strong><%= t 'houses.nesvika.bedlinen_tip' %></strong><%= t 'houses.nesvika.bedlinen_tip_desc' %>
+      </div>
+
+    </div>
+    <div class="col-md-5">
+      <div class="panel panel-success">
+        <div class="panel-heading"><%= t 'houses.technical_info'%></div>
+        <table class="table">
+          <%= table_row 'houses.capacity', (t 'houses.neshagen.capacity_desc') %>
+          <%= table_row 'houses.area', (t 'houses.neshagen.area_desc') %>
+          <%= table_row 'houses.built_year', '1975' %>
+          <%= table_row 'houses.rooms', (t 'houses.neshagen.rooms_desc') %>
+          <%= table_row 'houses.parking', (t 'houses.neshagen.parking_desc') %>
+          <%= table_row 'houses.facilities', (t 'houses.neshagen.facilities_desc') %>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/neshagen2/neshagen2_2_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen2.h3'%> <span class="label label-success" data-toggle="tooltip" data-placement="left" title="<%= t 'houses.booking_cottages.nesvika3.wheelchair_info' %>"><i class="icon-wheelchair"></i></span></h3>
+      <p><%= t 'houses.booking_cottages.neshagen2.individual'%></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/neshagen3/neshagen3_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen3.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen3.individual'%></p>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag('booking_cottages/neshagen4/neshagen4_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen4.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen4.individual'%></p>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-3">
+      <%= image_tag('booking_cottages/neshagen5/neshagen5_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen5.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen5.individual'%></p>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag('booking_cottages/neshagen6/neshagen6_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen6.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen6.individual'%></p>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag('booking_cottages/neshagen7/neshagen7_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen7.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen7.individual'%></p>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag('booking_cottages/neshagen8/neshagen8_1_small.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      <h3><%= t 'houses.booking_cottages.neshagen8.h3'%></h3>
+      <p><%= t 'houses.booking_cottages.neshagen8.individual'%></p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
