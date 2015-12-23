@@ -5,14 +5,7 @@
       <%= render 'layouts/booking_box' %>
     </div>
     <div class="col-md-8">
-      <code>Some intro here with images or general booking form</code>
       <% events = parse_cal 'https://api.webrez.com/hotel/1260/unit_availability_calendar_ical/51205' %>
-       <ul>
-        <% events.each do |e| %>
-            <li>Hello</li>
-          <% end %>
-       </ul>
-
     </div>
   </div>
 
