@@ -54,21 +54,25 @@
   <!-- DAS RESORT -->
   <%= block_header 'resort', 'menu.the_resort' %>
 
+  <div class="row">
+      <p><%= t 'resort.par1' %></p>
+      <p>
+          <a class="btn btn-default" role="button" data-toggle="collapse" data-parent="#accordion" href="#mapCollapse" aria-expanded="true" aria-controls="mapCollapse">
+              <i class="icon-map" style="font-size: medium"></i> <%= t 'resort.map_h3' %> <span class="caret"></span>
+          </a>
+      </p>
+      <div id="mapCollapse" class="collapse">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d266402.4880443432!2d6.130060648691279!3d60.353461041671665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463c33f2afb6dc97%3A0x9d294627db076bf0!2sHardanger+Feriesenter+AS!5e0!3m2!1sen!2sno!4v1442346481558" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
 
-  <p><%= t 'resort.par1' %></p>
+      <p><%= t 'resort.par2'%></p>
+      <p><%= t 'resort.par3'%></p>
 
-  <p><a class="btn btn-default" role="button" data-toggle="collapse" data-parent="#accordion" href="#mapCollapse" aria-expanded="true" aria-controls="mapCollapse">
-    <i class="icon-map" style="font-size: medium"></i> <%= t 'resort.map_h3' %> <span class="caret"></span>
-  </a></p>
-  <div id="mapCollapse" class="collapse">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d266402.4880443432!2d6.130060648691279!3d60.353461041671665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463c33f2afb6dc97%3A0x9d294627db076bf0!2sHardanger+Feriesenter+AS!5e0!3m2!1sen!2sno!4v1442346481558" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="col-md-6">
+          <%= image_tag('home/the_resort/family.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+      </div>
   </div>
 
-  <p><%= t 'resort.par2'%></p>
-  <p><%= t 'resort.par3'%></p>
-  <div class="col-md-6">
-      <%= image_tag('home/the_resort/family.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
-  </div>
   <p><%= t 'general.have_questions_call'%></p>
 
   <!-- BUCHUNG -->
