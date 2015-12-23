@@ -54,9 +54,7 @@
   <!-- DAS RESORT -->
   <%= block_header 'resort', 'menu.the_resort' %>
 
-  <div class="col-md-6">
-      <%= image_tag('home/the_resort/family.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
-  </div>
+
   <p><%= t 'resort.par1' %></p>
 
   <p><a class="btn btn-default" role="button" data-toggle="collapse" data-parent="#accordion" href="#mapCollapse" aria-expanded="true" aria-controls="mapCollapse">
@@ -68,6 +66,9 @@
 
   <p><%= t 'resort.par2'%></p>
   <p><%= t 'resort.par3'%></p>
+  <div class="col-md-6">
+      <%= image_tag('home/the_resort/family.jpg', :class => 'img-responsive', :style => 'width: 100%; height: auto') %>
+  </div>
   <p><%= t 'general.have_questions_call'%></p>
 
   <!-- BUCHUNG -->
